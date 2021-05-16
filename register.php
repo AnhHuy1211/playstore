@@ -33,7 +33,7 @@
         $user = $_POST['user'];
         $pass = $_POST['pass'];
         $pass_confirm = $_POST['check_password'];
-
+        echo $first_name +' '+ $email +' '+ $user
         if (empty($first_name) and empty($last_name)) {
             $error = 'Vui lòng nhập tên';
         }
