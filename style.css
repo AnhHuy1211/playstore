@@ -1,0 +1,603 @@
+html, body{
+	background-color: rgb(245, 245, 245);
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	background-color: #e7e7e7;
+	padding-right: 40px;
+
+}
+.logo{
+	margin-left: 20px;
+	margin-right: 10px;
+	float:left;
+
+}
+.search-box{
+	display: inline;
+	width: 50%;
+	border: 0.5px solid #E5E5E5FF;
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+	cursor: text;
+	border-radius: 4px 0px 0px 4px;
+}
+.search-box:hover{
+	border-color: rgb(26, 79, 212);
+}
+.search-button{
+	border: 0.5px solid #1488EAFF;
+	background-color: #1488EAFF;
+	color: white;
+	margin-top: 30px;
+	float: left;
+	border-radius: 0px 4px 4px 0px;
+	width: 50px;
+	padding:40px;
+
+}
+.search-button:hover{
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.header .login{
+	margin-top: 30px;
+	border: 0.5px solid #1488EAFF;
+	background-color: #1488EAFF;
+	color: white;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.header .loginn:hover{
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.header .loginn{
+	border: 0.5px solid #e30505;
+	background-color: #e30505;
+	color: white;
+	margin-bottom: 10px;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+	margin-left: 90px;
+}
+.header .login:hover{
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+	list-style-type: none;
+	width: 17%;
+	position: -webkit-sticky;
+	position: sticky;
+	height: 0px;
+	padding-left: 0%;
+	top: 0px;
+	display: block;
+
+
+}
+li a {
+	background-color: white;
+	display: block;
+	color: black;
+	text-decoration: none;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+li a.home{
+	background-color: #08ca80;
+	color: white;
+	text-decoration: none;
+}
+.bbt{
+	padding: 15px 19px;
+	color: white;
+	background-color: #08ca80;
+	border: none;
+}
+.but{
+	padding: 15px 20px;
+	color: white;
+	background-color: #ff6811;
+	border: none;
+}
+
+.butt {
+	padding: 15px 18.9px;
+	color: white;
+	background-color: #00b9b9;
+	border: none;
+}
+
+.buutt {
+	padding: 15px 20.2px;
+	color: white;
+	background-color: #ff063c;
+	border: none;
+}
+
+.buttt {
+	padding: 15px 18px;
+	color: white;
+	background-color: #8f06ff;
+	border: none;
+}
+
+li a.apps:hover{
+	background-color: #ff6811;
+	color: white;
+	text-decoration: none;
+}
+li a.movie:hover{
+	background-color: #00b9b9;
+	color: white;
+	text-decoration: none;
+}
+li a.account:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #ff063c;
+}
+li a.cash:hover{
+	text-decoration: none;
+	color: white;
+	background-color: #8f06ff;
+}
+.main{
+	margin-left:25%;
+	padding:1px 16px;
+	height:1000px;
+}
+h1 {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+h1 a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+h1 a:hover{
+	text-decoration: none;
+	color:black;
+}
+.game {
+	text-align: center;
+	border-radius: 6px;
+	background-color: white ;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	padding: 15px;
+	margin-top: 5px;
+}
+
+.game img {
+	width: 100%;
+}
+.game img:hover{
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.pic-1:hover{
+	background: black;
+}
+.game-title a {
+	color: black;
+	padding-top: 10px;
+	display: block;
+	font-weight: bold;
+	text-align: left;
+
+}
+.game-author a{
+	color: black;
+	font-size: 12px;
+	display: block;
+	text-align: left;
+}
+.game-rate{
+	display: block;
+}
+.game-rate{
+	display: block;
+	font-size: 10px;
+	text-align: left;
+}
+.money{
+	text-align: left;
+	display: block;
+	font-size: 13px;
+	color: #E72017FF;
+
+}
+/* CSS trochoi.html */
+li a.home-trochoi:hover{
+	background-color: #08ca80;
+	color: white;
+	text-decoration: none;
+}
+li a.apps-trochoi{
+	background-color: #ff6811;
+	color: white;
+	text-decoration: none;
+}
+div .dropdown{
+	top: 0px;
+	position: sticky!important;
+	z-index: 2;
+}
+
+
+
+/* CSS phim.html */
+li a.home-phim:hover{
+	background-color: #08ca80;
+	color: white;
+	text-decoration: none;
+}
+li a.movie-phim{
+	background-color: #00b9b9;
+	color: white;
+	text-decoration: none;
+}
+/* CSS naptien.html */
+li a.home-naptien:hover{
+	background-color: #08ca80;
+	color: white;
+	text-decoration: none;
+}
+li a.cash-naptien{
+	background-color: #8f06ff;
+	color: white;
+	text-decoration: none;
+}
+/* CSS taikhoan.html */
+li a.home-taikhoan:hover{
+	background-color: #08ca80;
+	color: white;
+	text-decoration: none;
+}
+li a.account-taikhoan{
+	background-color: #ff063c;
+	color: white;
+	text-decoration: none;
+}
+
+
+/* CSS genshin.php*/
+
+.genshin-main{
+	margin-right: 5%;
+	margin-left:25%;
+	margin-top: 4%;
+	height: 3000px;
+	box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.genshin-main .col-sm-4 img{
+	width: 100%;
+	margin: 20px;
+}
+.genshin-main h2{
+	margin-top: 25px;
+}
+.genshin-main span{
+	margin-top: 3px;
+}
+.app-name{
+	color: green;
+	font-weight: bold;
+}
+.app-rate{
+	margin-top: 5px;
+	display: block;
+	font-size: 12px;
+}
+.genshin-main a{
+	text-decoration: none;
+}
+.genshin-main .nd{
+	margin-left: 20px;
+	margin-right: 10px;
+	display: block;
+}
+.genshin-main .theloai{
+	color: #A62A17FF;
+	margin-top: 2px;
+}
+#docthem1 p {
+	color: #A62A17FF;
+	display: block;
+}
+.comment{
+	margin-top: 10px;
+}
+/*login.php*/
+.container{
+	border-radius: 10px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin: 100px auto ;
+	width: 500px;
+	padding: 30px;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+body.bg-login{
+	background-image: url("background.jpg");
+	padding: 5px;
+}
+
+.input-container{
+	display:flex;
+	display: -ms-flexbox;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.icon {
+	padding: 16px;
+	background: #ff2e2e;
+	color: white;
+	min-width: 50px;
+	text-align: center;
+	border-radius: 10px 0px 0px 10px;
+
+}
+.control-form{
+	border-radius: 0px 10px 10px 0px;
+	width: 100%;
+	padding: 8px;
+	outline: none;
+	border: 1px solid #ccc;
+}
+.control-form:focus{
+	border: 2px solid black;
+}
+h4 {
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bolder;
+	font-size:  40px;
+}
+
+.bttn{
+	background-color: #f33333;
+	color: white;
+	padding: 14px 20px;
+	margin: 10px 0;
+	border: none;
+	width: 100%;
+}
+.bttn:hover{
+	background-color:hsl(0, 57%, 52%);
+	color: white;
+	outline: none;
+	border-radius: none;
+}
+.bttn:focus{
+	outline: none;
+}
+
+.hr{
+	height:2px;
+	margin:20px 0 10px 0;
+	background:rgba(255,255,255,.2);
+}
+.bt{
+
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+.bt:hover{
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	outline: none;
+	border-radius: none;
+
+}
+.bt:focus{
+	outline: none;
+}
+.btf{
+	color: white;
+}
+span.psw {
+	color: #ccc;
+	float: right;
+	padding-top: 16px;
+}
+.pswf {
+	color: white;
+}
+/*register.php*/
+body.register-body .container{
+	border-radius: 10px;
+	border : 2px solid black;
+	background-color: rgb(243, 242, 242);
+	color: black ;
+	margin: 90px auto ;
+	width:600px;
+	padding: 30px;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+body.register-body{
+	background-image: linear-gradient(to bottom, rgb(230, 86, 235),rgb(0, 174, 255));
+	padding: 5px;
+}
+
+body.register-body .input-container{
+	display:flex;
+	display: -ms-flexbox;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+body.register-body .control-form{
+	border-radius: 10px;
+	width: 100%;
+	padding: 8px;
+	outline: none;
+	border: 2px solid rgb(160, 160, 160);
+}
+body.register-body .control-form:focus{
+	border: 2px solid black;
+}
+body.register-body h3 {
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bolder;
+	font-size:  40px;
+}
+
+
+body.register-body .bt{
+
+	background-image: linear-gradient(to right , rgb(230, 86, 235),rgb(0, 174, 255));
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+body.register-body .bt:hover{
+	background-image: linear-gradient(to right , rgb(250, 93, 255),rgb(83, 201, 255));
+	color: white;
+	outline: none;
+	border-radius: none;
+
+}
+body.register-body .bt:focus{
+	outline: none;
+}
+body.register-body span.psw {
+	color: #ccc;
+	float: right;
+	padding-top: 16px;
+}
+body.register-body .formcontrol{
+	border-radius: 10px;
+	width: 100%;
+	padding: 8px;
+	outline: none;
+	border: 2px solid rgb(160, 160, 160);
+	margin-bottom: 0%;
+}
+body.register-body .formcontrol:focus{
+	border: 2px solid black;
+}
+
+.logg{
+	color: blue;
+}
+.but_login{
+	text-align: center;
+}
+
+p.styleten{
+	color: red;
+}
+.img-thumbnail{
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+}
+
+
+/*////////////////SEARCH/////////////////////*/
+
+.search-input{
+	background-color: white;
+	display: inline;
+	width: 500px;
+	border: 0.5px solid #E5E5E5FF;
+	margin-top: 30px;
+	margin-left:50px;
+	cursor: text;
+	height: 40px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+.search-icon{
+	border: 0.5px solid #1488EAFF;
+	background-color: #1488EAFF;
+	color: white;
+	margin-top: 30px;
+	border-radius: 0px 8px 8px 0px;
+	width: 70px;
+	height: 40px;
+}
+.search-icon:hover{
+	box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.2) ;
+}
+
+.search-result-list {
+	text-decoration: none;
+	color:black;
+	background-color: white!important;
+	z-index: 1;
+	
+}
+.search-icon i{
+	margin-top: 12px;
+}
+.search-result-item a{
+	text-decoration: unset;
+	height:40px;
+	border:1px solid rgba(0,0,0,.125);
+}
+
+.search-result-item:hover a{
+	text-decoration: unset;
+	display: flex;
+	background-color: #cccccc;
+}
+
+.list-group-item{
+	position: relative;
+	background-color: white;
+	padding:0;
+	margin-left: 50px;
+	width:500px;
+	height:100px;
+}
+
+/*/////////////////VIEW DONATE//////////////////*/
+div.history_donate table tr td {
+	border-bottom: 2px solid #ccc;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.history_donate {
+	margin-left: 20%;
+
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+div.history_donate th {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	color: #0099ff;
+}
+
+.stylechao{
+	margin-left: 2px;
+}
+
+.aaa{
+	margin-left: 80px;
+	padding-top: 10px;
+}
+.stylemoney{
+	color: #428d47;
+	margin-left: 80px;
+}
