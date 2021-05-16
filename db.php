@@ -9,10 +9,11 @@
 	require 'vendor/autoload.php';
 
 
-	define('HOST','localhost');
-	define('USER','id16501783_ak2');
-	define('PASS','51900@Ak1234');
-	define('DB','id16501783_doanweb');
+	define('HOST','remotemysql.com');
+	define('USER','oTP4am9uMs');
+	define('PASS','hGgwg6q1aC');
+	define('DB','oTP4am9uMs');
+
 
 	function open_database(){
 		$conn = new mysqli(HOST, USER, PASS, DB);
