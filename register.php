@@ -71,7 +71,7 @@
             }
             else{
                 $error = 'Tài khoản này đã trùng';
-                die($first_name +' '+ $email +' '+ $user);
+                echo $first_name +' '+ $email +' '+ $user;
             }
         }
     }
