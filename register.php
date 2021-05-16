@@ -24,15 +24,6 @@
     $pass = '';
     $pass_confirm = '';
     
-    function console_log($output, $with_script_tags = true) {
-    $js_code = 'console.log(' . json_encode($output, JSON_HEX_TAG) . 
-');';
-    if ($with_script_tags) {
-        $js_code = '<script>' . $js_code . '</script>';
-    }
-    echo $js_code;
-}
-
     if (isset($_POST['first']) && isset($_POST['last']) && isset($_POST['email'])
     && isset($_POST['user']) && isset($_POST['pass']) && isset($_POST['check_password']))
     {
@@ -80,7 +71,6 @@
             }
             else{
                 $error = 'Tài khoản này đã trùng';
-                console_log($email);
             }
         }
     }
