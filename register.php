@@ -27,12 +27,12 @@
     if (isset($_POST['first']) && isset($_POST['last']) && isset($_POST['email'])
     && isset($_POST['user']) && isset($_POST['pass']) && isset($_POST['check_password']))
     {
-        $first_name = $_POST['first'];
-        $last_name = $_POST['last'];
-        $email = $_POST['email'];
-        $user = $_POST['user'];
-        $pass = $_POST['pass'];
-        $pass_confirm = $_POST['check_password'];
+        $first_name = $_GET['first'];
+        $last_name = $_GET['last'];
+        $email = $_GET['email'];
+        $user = $_GET['user'];
+        $pass = $_GET['pass'];
+        $pass_confirm = $_GET['check_password'];
         
         if (empty($first_name) and empty($last_name)) {
             $error = 'Vui lòng nhập tên';
@@ -78,7 +78,7 @@
     <div class="container">
         <div class="row justify-content-center" >
             <div class="col">
-                <form action="" method ="post" novalidate>
+                <form action="" method ="get" novalidate>
                     <div class = "register-form">
                         <h3>TẠO TÀI KHOẢN</h3>
                         <div class="form-row">
