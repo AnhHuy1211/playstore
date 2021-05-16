@@ -1,7 +1,6 @@
 <?php
 	include './db.php';
 	session_start();
-	$conn = openDB();
 
 	$conn = open_database();
 
