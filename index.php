@@ -1,10 +1,9 @@
 <?php
-	include './config.php';
 	include './db.php';
 	session_start();
 	$conn = openDB();
 
-	$conc = open_database();
+	$conn = open_database();
 
 	$sql="select * from all_game ";
 	$result = mysqli_query($conn, $sql);
